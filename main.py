@@ -1,11 +1,11 @@
 # Author: Fransiskus Agapa
 
-from abc import ABC, abstractmethod
+from abc import ABC, abstractmethod         # library to user abstract method
 
 
 class Vehicle:
 
-    @abstractmethod                          # this class can no longer be instantiated
+    @abstractmethod                          # this class / method can no longer be instantiated
     def create(self):
         print("Create new vehicle")
 
